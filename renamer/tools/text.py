@@ -24,21 +24,16 @@ class TEXT:
 **@Movies_Club_2019**
 """
 
-    START_TEXT = """**Hi**🤟 💞{user_mention}💞\n
-**ഞാൻ ഒരു RENAME BOT ആണ്. സ്ഥിര thumbnail സപ്പോർട്ടും ഉണ്ട്✔️**.
-**ഇനി എന്തെങ്കിലും കൂടുതലായി അറിയണമെങ്കിൽ CLICK👉𝖧𝖾𝗅𝗉**..
+    START_TEXT = """_Hi_🤟 💞{user_mention}💞\n
+**🇮🇳ഞാൻ ഒരു RENAME BOT ആണ്. സ്ഥിര thumbnail സപ്പോർട്ടും ഉണ്ട്✔️**.
+**🇮🇳ഇനി എന്തെങ്കിലും കൂടുതലായി അറിയണമെങ്കിൽ CLICK👉𝖧𝖾𝗅𝗉**\n..
 **Maintained By😎:** {bot_owner}
 """
 
-
-    DONATE_USER = """**__Thanks for showing interest in donation.__**
+    DONATE_USER = """**Donation തരണമെന്ന് ചിന്തിച്ച ആ മനസ്സ് ഞാൻ കാണുന്നു💗**\n
  
-Donate us to keep our services continously alive
-You can send any amount 
-of 20rs, 30rs, 50rs, 70rs, 100rs, 200rs
+<u><b>ഇതിലൊക്കെ ഉണ്ട് ഞാൻ</b></u>:
  
-__--Payment Methods:--__
+**GooglePay / Paytm / PhonPay / paypal**\n
  
-GooglePay / Paytm / PhonPay / paypal / Net Banking
- 
-**For Donate:** message me @MaxxRiderz"""
+**For Donate: message me On Telegram 💞@Myfreak123💞**"""
