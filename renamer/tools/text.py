@@ -26,22 +26,12 @@ HELP_USER = """**👇താഴെ എഴുതിയേക്കുന്നെ 
 @Movies_Club_2019"""
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
       START_TEXT = """Hi {user_mention},
+
 I am a telegram renamer with permanent thumbnail.
+
 𝖥𝗈𝗋 𝖬𝗈𝗋𝖾 𝖣𝖾𝗍𝖺𝗂𝗅𝗌 𝖲𝖾𝖾 𝖧𝖾𝗅𝗉.
+
 **Maintained By:** {bot_owner}
 """
 
