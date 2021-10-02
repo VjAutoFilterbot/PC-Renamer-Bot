@@ -1,53 +1,52 @@
 from pyrogram.emoji import *
 
 class TEXT:
-    DOWNLOAD_START = f"ഡോൺലോഡ് തുടങ്ങി മക്കളെ  {INBOX_TRAY}"
-    UPLOAD_START = f"അപ്‌ലോഡ് തുടങ്ങി മക്കളെ {OUTBOX_TRAY}"
-    UPLOAD_SUCESS = f"ഉപയോഗിച്ചതിനു നന്ദി {FOLDED_HANDS} By [Movies_Club_2019](https://t.me/Movies_Club_2019)"
-    BANNED_USER_TEXT = f"Hey bro,നിനക്ക് ഞാൻ **ban** തന്നു ഇനി ഈ വഴിക്ക് വരരുത് {SMIRKING_FACE}."
+    DOWNLOAD_START = f"Downloading Starts soon {SLEEPING_FACE}"
+    UPLOAD_START = f"Upload Starting Soon {SLEEPING_FACE}"
+    UPLOAD_SUCESS = f"Thanks for using [me](https://github.com/Ns-AnoNymouS/TG-RENAMER-BOT)"
+    BANNED_USER_TEXT = f"Hey bro, you are **banned** from using me {FACE_WITH_TEARS_OF_JOY}."
     NOT_LOGGED_TEXT = f"This bot was only for private use {LOCKED_WITH_KEY}. If you want to use this bot you need to send me correct password in the format `/login bot_password`"
-    SAVED_CUSTOM_THUMBNAIL = f"Thumbnail സേവ് ആക്കിട്ടുണ്ട്  {CAMERA_WITH_FLASH}"
-    DELETED_CUSTOM_THUMBNAIL = f"Thumbnail ഡിലീറ്റ് ആക്കിട്ടുണ്ട്  {BROKEN_HEART}"
-    NO_CUSTOM_THUMB_NAIL_FOUND = f"ഒരു TB ലും ഇല്ലടെയ് വേറെ സാധനം വിട് {THUMBS_DOWN_LIGHT_SKIN_TONE}"
-    THUMBNAIL_CAPTION = f"{BACKHAND_INDEX_POINTING_UP_LIGHT_SKIN_TONE} നിങ്ങൾ തന്ന TB"
+    SAVED_CUSTOM_THUMBNAIL = f"Thumbnail Saved Permanently {NOTEBOOK_WITH_DECORATIVE_COVER}"
+    DELETED_CUSTOM_THUMBNAIL = f"Thumbnail Deleted Successfully {CHECK_MARK_BUTTON}"
+    NO_CUSTOM_THUMB_NAIL_FOUND = f"𝖭𝗈 𝗍𝗁𝗎𝗆𝖻𝗇𝖺𝗂𝗅 𝖥𝗈𝗎𝗇𝖽 {THUMBS_DOWN_LIGHT_SKIN_TONE}"
+    THUMBNAIL_CAPTION = f"{BACKHAND_INDEX_POINTING_UP_LIGHT_SKIN_TONE} Your Permanent thumbnail"
 
 
-    ABOUT = """**അമ്പടി ജിന്ജിന്നക്കിടി😎:**
-**😁എന്തിനാ മോനെ ഇത്രേം സാഹസം കാണിച്ചത് 📃Source Code📃 ന് വേണ്ടിയാണോ🙄ന്തയാലും ഇവിടെ വരെ വന്നില്ലേ🤔 ചാനലിലും ഗ്രൂപ്പിലുമൊക്കെ ജോയിൻ😛 ചെയ്തിട്ട് പൊക്കോ🚶🤧**
+    ABOUT = """**𝖬𝗒 𝖣𝖾𝗍𝖺𝗂𝗅𝗌 :**
+** My Name:** {bot_name}
+    
+** Language:** [Python 3](https://www.python.org/)
+** FrameWork:** [Pyrogram](https://github.com/pyrogram/pyrogram)
+** Developer:** {bot_owner}
+** Channel:** [NS BOT UPDATES](https://t.me/Ns_bot_updates)
+** Group:** [Ns BOT SUPPORT](https://t.me/Ns_Bot_supporters)
+** Source Code:** [Press Me](https://github.com/Ns-AnoNymouS/TG-RENAMER-BOT)
 """
 
-HELP_USER = """**👇താഴെ എഴുതിയേക്കുന്നെ നല്ലോണം വായിച്ചു നോക്ക്**👍.
+    HELP_USER = """**Follow Below Steps:**
    
-👉 **Use /mode command to change upload മോഡ് VIDEO🎥 Or FILE📁**.
-👉 **ഒരു ഫോട്ടോ സെന്റ് ചെയ്താൽ Thumbnail ആക്കാം**✅️.
-👉 **അത് കഴിഞ്ഞു ഫയൽ ഇങ്ങോട്ട് വിട് നൻബാ**🖊️.
-👉 **അത് കഴിഞ്ഞു പുതിയ നെയിം ഇങ്ങോട്ട് ഇട്ടേരെ. ബാക്കി ഞാൻ ഏറ്റു**😎..
+☞︎︎︎ Use /mode command to change upload mode.
+☞︎︎︎ Send a photo to set as permanent thumbnail.
+☞︎︎︎ Now send me the Telegram file you want to rename.
+☞︎︎︎ Send the new name when bot ask.
+For source code check about
+"""
 
-@Movies_Club_2019"""
-
-
-      START_TEXT = """Hi {user_mention},
-
+    START_TEXT = """Hi {user_mention},
 I am a telegram renamer with permanent thumbnail.
-
 𝖥𝗈𝗋 𝖬𝗈𝗋𝖾 𝖣𝖾𝗍𝖺𝗂𝗅𝗌 𝖲𝖾𝖾 𝖧𝖾𝗅𝗉.
-
 **Maintained By:** {bot_owner}
 """
 
 
-    DONATE_USER = """**Donation തരണമെന്ന് ചിന്തിച്ച ആ മനസ്സ് ഞാൻ കാണുന്നു💗.
+    DONATE_USER = """**__Thanks for showing interest in donation.__**
  
-ഇതിലൊക്കെ ഉണ്ട് ഞാൻ:
+Donate us to keep our services continously alive
+You can send any amount 
+of 20rs, 30rs, 50rs, 70rs, 100rs, 200rs
  
-GooglePay / Paytm / PhonPay / Paypal.
+__--Payment Methods:--__
  
-**For Donate: message me On Telegram** 👉**@Myfreak123**"""
-
-
-
-    
-
-
-
-
+GooglePay / Paytm / PhonPay / paypal / Net Banking
+ 
+**For Donate:** message me @MaxxRiderz"""
