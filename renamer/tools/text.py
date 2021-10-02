@@ -12,51 +12,23 @@ class TEXT:
     THUMBNAIL_CAPTION = f"{BACKHAND_INDEX_POINTING_UP_LIGHT_SKIN_TONE} നിങ്ങൾ തന്ന TB"
 
 
-    ABOUT = """**𝖬𝗒 𝖣𝖾𝗍𝖺𝗂𝗅𝗌 :**
-
-** My Name:** {bot_name}
-    
-** Language:** [Python 3](https://www.python.org/)
-
-** FrameWork:** [Pyrogram](https://github.com/pyrogram/pyrogram)
-
-** Developer:** {bot_owner}
-
-** Channel:** [NS BOT UPDATES](https://t.me/Ns_bot_updates)
-
-** Group:** [Ns BOT SUPPORT](https://t.me/Ns_Bot_supporters)
-
-** Source Code:** [Press Me](https://github.com/Ns-AnoNymouS/TG-RENAMER-BOT)
-"""
-
-    HELP_USER = """**Follow Below Steps:**
-   
-☞︎︎︎ Use /mode command to change upload mode.
-☞︎︎︎ Send a photo to set as permanent thumbnail.
-☞︎︎︎ Now send me the Telegram file you want to rename.
-☞︎︎︎ Send the new name when bot ask.
-
-For source code check about
+    ABOUT = """**അമ്പടി ജിന്ജിന്നക്കിടി😎:**
+**😁എന്തിനാ മോനെ ഇത്രേം സാഹസം കാണിച്ചത് 📃Source Code📃 ന് വേണ്ടിയാണോ🙄ന്തയാലും ഇവിടെ വരെ വന്നില്ലേ🤔 ചാനലിലും ഗ്രൂപ്പിലുമൊക്കെ ജോയിൻ😛 ചെയ്തിട്ട് പൊക്കോ🚶🤧**
 """
 
     START_TEXT = """Hi {user_mention},
 
-I am a telegram renamer with permanent thumbnail.
+**ഞാൻ ഒരു RENAME BOT ആണ്. സ്ഥിര thumbnail സപ്പോർട്ടും ഉണ്ട്**✔️.
 
-𝖥𝗈𝗋 𝖬𝗈𝗋𝖾 𝖣𝖾𝗍𝖺𝗂𝗅𝗌 𝖲𝖾𝖾 𝖧𝖾𝗅𝗉.
-
-**Maintained By:** {bot_owner}
+**ഇനി എന്തെങ്കിലും കൂടുതലായി അറിയണമെങ്കിൽ CLICK👉𝖧𝖾𝗅𝗉**.
+**Maintained By😎:** {bot_owner}
 """
 
 
-    DONATE_USER = """**__Thanks for showing interest in donation.__**
+    DONATE_USER = """**Donation തരണമെന്ന് ചിന്തിച്ച ആ മനസ്സ് ഞാൻ കാണുന്നു💗.
  
-Donate us to keep our services continously alive
-You can send any amount 
-of 20rs, 30rs, 50rs, 70rs, 100rs, 200rs
- 
-__--Payment Methods:--__
+_ഇതിലൊക്കെ ഉണ്ട് ഞാൻ_:
  
 GooglePay / Paytm / PhonPay / paypal / Net Banking
  
-**For Donate:** message me @MaxxRiderz"""
+**For Donate: message me On Telegram @Myfreak123**"""
