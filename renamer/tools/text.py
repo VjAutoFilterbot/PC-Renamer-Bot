@@ -8,8 +8,8 @@ class TEXT:
     NOT_LOGGED_TEXT = f"This bot was only for private use {LOCKED_WITH_KEY}. If you want to use this bot you need to send me correct password in the format /login bot_password"
     SAVED_CUSTOM_THUMBNAIL = f"<b>Thumbnail സേവ് ആക്കിട്ടുണ്ട്</b>  {CAMERA_WITH_FLASH}"
     DELETED_CUSTOM_THUMBNAIL = f"<b>Thumbnail ഡിലീറ്റ് ആക്കിട്ടുണ്ട്</b>  {BROKEN_HEART}"
-    NO_CUSTOM_THUMB_NAIL_FOUND = f"ഒരു TB ലും ഇല്ലടെയ് വേറെ സാധനം വിട് {THUMBS_DOWN_LIGHT_SKIN_TONE}"
-    THUMBNAIL_CAPTION = f"{BACKHAND_INDEX_POINTING_UP_LIGHT_SKIN_TONE} നിങ്ങൾ തന്ന TB"
+    NO_CUSTOM_THUMB_NAIL_FOUND = f"**ഒരു THUMBNAIL ഉം ഇല്ലടെയ് വേറെ സാധനം വിട്** {THUMBS_DOWN_LIGHT_SKIN_TONE}"
+    THUMBNAIL_CAPTION = f"{BACKHAND_INDEX_POINTING_UP_LIGHT_SKIN_TONE} **നിങ്ങൾ തന്ന THUMBNAIL**"
 
     ABOUT = """<b><u>AVAILABLE COMMANDS✅️</b></u>\n\n 👉/start :<u>**Check Bot Alive🤖**</u>\n\n 👉/help :<u>**Avilable Helps🌹**</u>\n\n 👉/about :<u>**Available Commands🗣️**</u>\n\n 👉/mode :<u>**Change Upload Mode(Video Or File)📍**</u>\n\n 👉/showthumbnail :<u>**Check Your Thumbnail📸**</u>\n\n 👉/deletethumbnail :<u>**Delete Your Thumbnail💔**</u>
 """
