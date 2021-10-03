@@ -26,6 +26,11 @@ async def donate(c, m):
         InlineKeyboardButton(f'{HOUSE_WITH_GARDEN} Home', callback_data='back'),
         InlineKeyboardButton(f'{ROBOT} About', callback_data='about')
         ],[
+            InlineKeyboardButton('🎞️𝐂𝐇𝐀𝐍𝐍𝐄𝐋🎞️', url='https://t.me/mcallmovies')
+        ],[
+            InlineKeyboardButton('📍𝐔𝐏𝐃𝐀𝐓𝐄𝐒', url='https://t.me/mcallmovies'),
+            InlineKeyboardButton('𝐍𝐄𝐖 𝐑𝐄𝐋𝐄𝐀𝐒𝐄💿', url='https://t.me/mcnewmovies')
+        ],[
         InlineKeyboardButton(f'{NO_ENTRY} Close', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(button)
