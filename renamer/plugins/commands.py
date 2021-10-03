@@ -17,6 +17,9 @@ async def help(c, m, cb=False):
         InlineKeyboardButton(f'{HOUSE_WITH_GARDEN} Home', callback_data='back'),
         InlineKeyboardButton(f'{MONEY_BAG} Donate', callback_data='donate')
         ],[
+            InlineKeyboardButton(f'📍𝐔𝐏𝐃𝐀𝐓𝐄𝐒', url='https://t.me/mcallmovies'),
+            InlineKeyboardButton(f'𝐍𝐄𝐖 𝐑𝐄𝐋𝐄𝐀𝐒𝐄', url='https://t.me/mcnewmovies')
+        ],[
         InlineKeyboardButton(f'{NO_ENTRY} 𝙲𝚕𝚘𝚜𝚎', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(button)
