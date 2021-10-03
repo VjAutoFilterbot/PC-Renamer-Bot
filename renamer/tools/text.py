@@ -3,7 +3,7 @@ from pyrogram.emoji import *
 class TEXT:
     DOWNLOAD_START = f"ഡോൺലോഡ് തുടങ്ങി മക്കളെ  {INBOX_TRAY}"
     UPLOAD_START = f"അപ്‌ലോഡ് തുടങ്ങി മക്കളെ {OUTBOX_TRAY}"
-    UPLOAD_SUCESS = f"ഗ്രൂപ്പിൽ ഒന്ന് ജോയിൻ ചെയ്തേരെ {FOLDED_HANDS}👉 <b>Group: [Movies_Club_2019](https://t.me/Movies_Club_2019)</b>"
+    UPLOAD_SUCESS = f"ഗ്രൂപ്പിൽ ഒന്ന് ജോയിൻ ചെയ്തേരെ {FOLDED_HANDS}\n👉 <b>Group: [Movies_Club_2019](https://t.me/Movies_Club_2019)</b>"
     BANNED_USER_TEXT = f"Hey bro,നിനക്ക് ഞാൻ ban തന്നു ഇനി ഈ വഴിക്ക് വരരുത് {SMIRKING_FACE}."
     NOT_LOGGED_TEXT = f"This bot was only for private use {LOCKED_WITH_KEY}. If you want to use this bot you need to send me correct password in the format /login bot_password"
     SAVED_CUSTOM_THUMBNAIL = f"Thumbnail സേവ് ആക്കിട്ടുണ്ട്  {CAMERA_WITH_FLASH}"
