@@ -80,12 +80,17 @@ async def about(c, m, cb=False):
     me = await c.get_me()
     owner = await c.get_users(Config.OWNER_ID)
 
-    button = [[
-        InlineKeyboardButton(f'{HOUSE_WITH_GARDEN} Home', callback_data='back'),
-        InlineKeyboardButton(f'{MONEY_BAG} Donate', callback_data='donate')
+    buttons = [[
+            InlineKeyboardButton('HOME', callback_data='back'),
+            InlineKeyboardButton('DONATE', callback_data='donate')
         ],[
-        InlineKeyboardButton(f'{NO_ENTRY} Close', callback_data="close")
-    ]]
+            InlineKeyboardButton('HELP', callback_data="help")
+        ],[
+            InlineKeyboardButton('📍𝐔𝐏𝐃𝐀𝐓𝐄𝐒', url='https://t.me/mcallmovies'),
+            InlineKeyboardButton('𝐍𝐄𝐖 𝐑𝐄𝐋𝐄𝐀𝐒𝐄💿', url='https://t.me/mcnewmovies')
+        ],[
+            InlineKeyboardButton('CLOSE', callback_data="close")
+        ]]
     reply_markup = InlineKeyboardMarkup(button)
     if cb:
         await m.message.edit(
