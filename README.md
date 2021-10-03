@@ -1,57 +1,32 @@
-# Renamer-Bot
-I think this repo gonna become one of the best renamer open source 🥰.
-
-Please Give a ⭐ if you like this repo and also try following me for more best open source codes<br><br>
-[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes/blue?icon=github)](https://github.com/Ns-Bots/TG-RENAMER-BOT)
-[![Ask Me Anything !](https://img.shields.io/badge/🤔%20Ask%20me-anything-1abc9c.svg)](https://telegram.dog/Ns_AnoNymouS)
-[![Report Bugs!](https://badgen.net/badge/🐞%20Report%20/Bugs/red)](https://telegram.dog/Ns_AnoNymouS)
-
-## Mapping
-[Deploy to Heroku 🗳](https://github.com/Ns-Bots/TG-RENAMER-BOT#deploy-to-heroku-)
-
-[Bot Features 🔥](https://github.com/Ns-Bots/TG-RENAMER-BOT#bot-features-)
-
-[Required Vars 💥](https://github.com/Ns-Bots/TG-RENAMER-BOT#required-vars-)
-
-[Optional Vars 💬](https://github.com/Ns-Bots/TG-RENAMER-BOT#optional-vars-)
-
-[Available Commands 🤖](https://github.com/Ns-Bots/TG-RENAMER-BOT#available-commands-)
-
-[Dev 🧑‍💻](https://github.com/Ns-Bots/TG-RENAMER-BOT#dev-)
-
-[TODO 🤧](https://github.com/Ns-Bots/TG-RENAMER-BOT#todo-)
-
-[Thanks And Credits 🎉](https://github.com/Ns-Bots/TG-RENAMER-BOT#thanks-and-credits-)
-
-## Deploy to Heroku 🗳
+## Deploy to Heroku 📤
 Press the following button to deploy in heroku.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sreejithmadmax/adjustingrename)
 
-## Bot Features 🔥
-- Renaming Telegram files as file or video.
+## Features Added✅️
+- Renaming Telegram files as file📁 or video🎥.
 
-- Trace Channel to track the users what they are doing with your bot.
+- Trace Channel to track the users what they are doing with your bot🖥️.
 
-- Password to use bot in private.
+- Password to use bot in private🔒.
 
-- Permanent thumbnail support.
+- Permanent thumbnail support📸.
 
-- Timegap to protect bot from spamming.
+- Timegap to protect bot from spamming⏰️.
 
-- /mode to change upload mode.
+- /mode to change upload mode⏳️.
 
-- Forcesub users to join you channel before using your bot.
+- Forcesub users to join you channel before using your bot🚀.
 
 
-## Required Vars 💥
+## Required Vars
 - `API_HASH:` Get this value from [my.telegram.org](https://my.telegram.org).
 
 - `API_KEY:` Get this value from [my.telegram.org](https://my.telegram.org).
 
 - `BOT_TOKEN:` Get the bot token from [Bot Father <img src="https://telegra.ph/file/8d80c13110506bf1cb58e.jpg" width="30" height="30">](https://telegram.dog/BotFather)
 
-- `OWNER_ID:` Your Telegram user id, Get this value from [@FileStore_Nsbot](https://telegram.dog/FileStore_Nsbot)
+- `OWNER_ID:` Your Telegram user id, Get this value from [@MissRose_bot](https://telegram.dog/MissRose_bot)
 
 
 ## Optional Vars 💬
@@ -81,25 +56,9 @@ reset - (admins only) reset users database
 login - (when password is given) to login to bot
 ```
 
-## Dev 🧑‍💻
-<p align="middle">
-<img src="https://telegra.ph/file/c35579b3aef1248e2a130.jpg" width="250" height="350"><br>
-<img src="https://badgen.net/badge/Name/Anonymous/FF33FF?icon=awesome&labelColor=0080FF"></a>
-<img src="https://badgen.net/badge/Skills/python/purple?icon=terminal&labelColor=red"></a>
-<a href="https://telegram.dog/Ns_Anonymous"><img src="https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram"></a>
-<a href="https://github.com/Ns-AnoNymouS"><img src="https://badgen.net/badge/Follow%20on%20/GitHub/80FF00?icon=github&labelColor=black"></a>
-<a href="https://youtube.com/channel/UC9NnqJ63aSzv457iUMM06vQ"><img src="https://img.shields.io/badge/YouTube-Channel-FF3333.svg?logo=youtube&logoColor=FF3333"></a>
-<p align="left">
-</p>
-
-## TODO 🤧
-- [ ] Adding broadcast command 
-- [ ] Adding ban and unban commands
-- [ ] Increasing error handlers
-
 ## Thanks And Credits 🎉
 [SpEcHiDe](https://github.com/SpEcHiDe) for his [AnyDlBot](https://github.com/SpEcHiDe/AnyDLBot)
 
 [Dan](https://telegram.dog/haskell) for his [Pyrogram](https://github.com/pyrogram/pyrogram)
 
-[MaheshMalekar ❤](https://telegram.dog/MaheshMalekar) for teaching me python
+[MaheshMalekar❤](https://telegram.dog/MaheshMalekar) for teaching me python
