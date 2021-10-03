@@ -14,15 +14,15 @@ from pyrogram.emoji import *
 @RenamerNs.on_message(filters.command("help") & filters.private & filters.incoming)
 async def help(c, m, cb=False):
     button = [[
-        InlineKeyboardButton(f'{HOUSE_WITH_GARDEN} Home', callback_data='back'),
-        InlineKeyboardButton(f'{MONEY_BAG} Donate', callback_data='donate')
+        InlineKeyboardButton(f'𝐇𝐎𝐌𝐄', callback_data='back'),
+        InlineKeyboardButton(f'𝐃𝐎𝐍𝐀𝐓𝐄 𝐎𝐖𝐍𝐄𝐑', callback_data='donate')
         ],[
-            InlineKeyboardButton('🎞️𝐂𝐇𝐀𝐍𝐍𝐄𝐋🎞️', url='https://t.me/mcallmovies')
+            InlineKeyboardButton('𝐂𝐇𝐀𝐍𝐍𝐄𝐋', url='https://t.me/mcallmovies')
         ],[
-            InlineKeyboardButton('📍𝐔𝐏𝐃𝐀𝐓𝐄𝐒', url='https://t.me/mcallmovies'),
-            InlineKeyboardButton('𝐍𝐄𝐖 𝐑𝐄𝐋𝐄𝐀𝐒𝐄💿', url='https://t.me/mcnewmovies')
+            InlineKeyboardButton('𝐎𝐓𝐓 𝐔𝐏𝐃𝐀𝐓𝐄𝐒', url='https://t.me/mcnewmovies'),
+            InlineKeyboardButton('𝐆𝐑𝐎𝐔𝐏', url='https://t.me/Movies_Club_2019')
         ],[
-        InlineKeyboardButton(f'{NO_ENTRY} 𝙲𝚕𝚘𝚜𝚎', callback_data='close')
+        InlineKeyboardButton(f'𝐂𝐋𝐎𝐒𝐄', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(button)
     if cb:
