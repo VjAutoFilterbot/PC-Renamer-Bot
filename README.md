@@ -57,8 +57,4 @@ login - (when password is given) to login to bot
 ```
 
 ## Thanks And Credits 🎉
-[SpEcHiDe](https://github.com/SpEcHiDe) for his [AnyDlBot](https://github.com/SpEcHiDe/AnyDLBot)
-
-[Dan](https://telegram.dog/haskell) for his [Pyrogram](https://github.com/pyrogram/pyrogram)
-
-[MaheshMalekar❤](https://telegram.dog/MaheshMalekar) for teaching me python
+NS Anonymous Tg💞
