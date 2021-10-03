@@ -31,7 +31,7 @@ async def donate(c, m):
             InlineKeyboardButton('𝐎𝐓𝐓 𝐔𝐏𝐃𝐀𝐓𝐄𝐒', url='https://t.me/mcnewmovies'),
             InlineKeyboardButton('𝐌𝐎𝐕𝐈𝐄𝐒 𝐆𝐑𝐎𝐔𝐏', url='https://t.me/Movies_Club_2019')
         ],[
-        InlineKeyboardButton(f'{NO_ENTRY} Close', callback_data='close')
+        InlineKeyboardButton(f'𝐂𝐋𝐎𝐒𝐄', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(button)
     await m.answer()
