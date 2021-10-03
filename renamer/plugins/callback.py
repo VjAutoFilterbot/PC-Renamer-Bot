@@ -23,13 +23,13 @@ async def help_cb(c, m):
 @RenamerNs.on_callback_query(filters.regex('^donate$'))
 async def donate(c, m):
     button = [[
-        InlineKeyboardButton(f'{HOUSE_WITH_GARDEN} Home', callback_data='back'),
-        InlineKeyboardButton(f'{ROBOT} About', callback_data='about')
+        InlineKeyboardButton(f'𝐇𝐎𝐌𝐄', callback_data='back'),
+        InlineKeyboardButton(f'𝐀𝐁𝐎𝐔𝐓', callback_data='about')
         ],[
-            InlineKeyboardButton('🎞️𝐂𝐇𝐀𝐍𝐍𝐄𝐋🎞️', url='https://t.me/mcallmovies')
+            InlineKeyboardButton('𝐂𝐇𝐀𝐍𝐍𝐄𝐋', url='https://t.me/mcallmovies')
         ],[
-            InlineKeyboardButton('📍𝐔𝐏𝐃𝐀𝐓𝐄𝐒', url='https://t.me/mcallmovies'),
-            InlineKeyboardButton('𝐍𝐄𝐖 𝐑𝐄𝐋𝐄𝐀𝐒𝐄💿', url='https://t.me/mcnewmovies')
+            InlineKeyboardButton('𝐎𝐓𝐓 𝐔𝐏𝐃𝐀𝐓𝐄𝐒', url='https://t.me/mcnewmovies'),
+            InlineKeyboardButton('𝐌𝐎𝐕𝐈𝐄𝐒 𝐆𝐑𝐎𝐔𝐏', url='https://t.me/Movies_Club_2019')
         ],[
         InlineKeyboardButton(f'{NO_ENTRY} Close', callback_data='close')
     ]]
