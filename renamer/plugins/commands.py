@@ -46,13 +46,17 @@ async def help(c, m, cb=False):
 async def start(c, m, cb=False):
     owner = await c.get_users(Config.OWNER_ID)
     owner_username = owner.username if owner.username else 'Ns_bot_updates'
-    button = [[
-        InlineKeyboardButton(f'{MAN_TEACHER_LIGHT_SKIN_TONE} My Owner', url=f'https://t.me/{owner_username}'),
-        InlineKeyboardButton(f'{ROBOT} About', callback_data='about')
+    buttons = [[
+            InlineKeyboardButton('OWNER', url=f'https://t.me/{owner_username}'),
+            InlineKeyboardButton('ABOUT', callback_data='about')
         ],[
-        InlineKeyboardButton(f'{INFORMATION} Help', callback_data="help"),
-        InlineKeyboardButton(f'{NO_ENTRY} Close', callback_data="close")
-    ]]
+            InlineKeyboardButton('HELP', callback_data="help")
+        ],[
+            InlineKeyboardButton('📍𝐔𝐏𝐃𝐀𝐓𝐄𝐒', url='https://t.me/mcallmovies'),
+            InlineKeyboardButton('𝐍𝐄𝐖 𝐑𝐄𝐋𝐄𝐀𝐒𝐄💿', url='https://t.me/mcnewmovies')
+        ],[
+            InlineKeyboardButton('CLOSE', callback_data='close')
+        ]]
     reply_markup = InlineKeyboardMarkup(button)
     if cb:
         await m.message.edit(
