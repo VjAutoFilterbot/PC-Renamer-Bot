@@ -11,7 +11,7 @@ class TEXT:
     NO_CUSTOM_THUMB_NAIL_FOUND = f"ഒരു TB ലും ഇല്ലടെയ് വേറെ സാധനം വിട് {THUMBS_DOWN_LIGHT_SKIN_TONE}"
     THUMBNAIL_CAPTION = f"{BACKHAND_INDEX_POINTING_UP_LIGHT_SKIN_TONE} നിങ്ങൾ തന്ന TB"
 
-    ABOUT = """<b><u>AVAILABLE COMMANDS✅️\n</b></u>\n 👉**/start :**<u>Check Bot Alive🤖</u>\n👉**/help :** <u>Avilable Helps🌹</u>\n👉**/about :**<u>Available Commands🗣️</u>\n👉**/mode :**<u>Change Upload Mode(Video Or File)📍</u>👉**/showthumbnail :** <u>Check Your Thumbnail📸</u>👉**/deletethumbnail :**<u>Delete Your Thumbnail💔</u>
+    ABOUT = """<b><u>AVAILABLE COMMANDS✅️</b></u>\n\n 👉/start :<u>**Check Bot Alive🤖**</u>\n\n 👉/help :<u>**Avilable Helps🌹**</u>\n\n 👉/about :<u>**Available Commands🗣️**</u>\n\n 👉/mode :<u>**Change Upload Mode(Video Or File)📍**</u>\n\n 👉/showthumbnail :<u>**Check Your Thumbnail📸**</u>\n\n 👉/deletethumbnail :<u>**Delete Your Thumbnail💔**</u>
 """
 
     HELP_USER = """**താഴെ എഴുതിയേക്കുന്നെ നല്ലോണം വായിച്ചു നോക്ക്👍**
