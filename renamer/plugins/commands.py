@@ -47,16 +47,16 @@ async def start(c, m, cb=False):
     owner = await c.get_users(Config.OWNER_ID)
     owner_username = owner.username if owner.username else 'Ns_bot_updates'
     button = [[
-        InlineKeyboardButton(f'{MAN_TEACHER_LIGHT_SKIN_TONE} My Owner', url=f'https://t.me/{owner_username}'),
-        InlineKeyboardButton(f'{ROBOT} About', callback_data='about')
+        InlineKeyboardButton(f'𝐌𝐘 𝐃𝐄𝐕', url=f'https://t.me/{owner_username}'),
+        InlineKeyboardButton(f'𝐀𝐁𝐎𝐔𝐓', callback_data='about')
         ],[
-            InlineKeyboardButton('🎞️𝐂𝐇𝐀𝐍𝐍𝐄𝐋🎞️', url='https://t.me/mcallmovies')
+            InlineKeyboardButton('𝐂𝐇𝐀𝐍𝐍𝐄𝐋', url='https://t.me/mcallmovies')
         ],[
-            InlineKeyboardButton('📍𝐔𝐏𝐃𝐀𝐓𝐄𝐒', url='https://t.me/mcallmovies'),
-            InlineKeyboardButton('𝐍𝐄𝐖 𝐑𝐄𝐋𝐄𝐀𝐒𝐄💿', url='https://t.me/mcnewmovies')
+            InlineKeyboardButton('𝐎𝐓𝐓 𝐔𝐏𝐃𝐀𝐓𝐄𝐒', url='https://t.me/mcnewmovies'),
+            InlineKeyboardButton('𝐆𝐑𝐎𝐔𝐏', url='https://t.me/Movies_Club_2019')
         ],[
-        InlineKeyboardButton(f'{INFORMATION} Help', callback_data="help"),
-        InlineKeyboardButton(f'{NO_ENTRY} Close', callback_data="close")
+        InlineKeyboardButton(f'𝐇𝐄𝐋𝐏', callback_data="help"),
+        InlineKeyboardButton(f'𝐂𝐋𝐎𝐒𝐄', callback_data="close")
     ]]
     reply_markup = InlineKeyboardMarkup(button)
     if cb:
@@ -82,13 +82,13 @@ async def about(c, m, cb=False):
     owner = await c.get_users(Config.OWNER_ID)
 
     button = [[
-        InlineKeyboardButton(f'{HOUSE_WITH_GARDEN} Home', callback_data='back'),
-        InlineKeyboardButton(f'{MONEY_BAG} Donate', callback_data='donate')
+        InlineKeyboardButton(f'𝐇𝐎𝐌𝐄', callback_data='back'),
+        InlineKeyboardButton(f'𝐃𝐎𝐍𝐀𝐓𝐄 𝐎𝐖𝐍𝐄𝐑', callback_data='donate')
         ],[
-            InlineKeyboardButton('📍𝐔𝐏𝐃𝐀𝐓𝐄𝐒', url='https://t.me/mcallmovies'),
-            InlineKeyboardButton('𝐍𝐄𝐖 𝐑𝐄𝐋𝐄𝐀𝐒𝐄💿', url='https://t.me/mcnewmovies')
+            InlineKeyboardButton('𝐎𝐓𝐓 𝐔𝐏𝐃𝐀𝐓𝐄𝐒', url='https://t.me/mcnewmovies'),
+            InlineKeyboardButton('𝐆𝐑𝐎𝐔𝐏', url='https://t.me/Movies_Club_2019')
         ],[
-        InlineKeyboardButton(f'{NO_ENTRY} Close', callback_data="close")
+        InlineKeyboardButton(f'𝐂𝐋𝐎𝐒𝐄', callback_data="close")
     ]]
     reply_markup = InlineKeyboardMarkup(button)
     if cb:
