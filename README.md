@@ -1,7 +1,7 @@
 ## Deploy to Heroku 📤
 Press the following button to deploy in heroku.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sreejithmadmax/adjustingrename)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/VjAutoFilterbot/adjustingrename)
 
 ## Features Added✅️
 - Renaming Telegram files as file📁 or video🎥.
