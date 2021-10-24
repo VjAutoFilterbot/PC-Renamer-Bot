@@ -24,7 +24,7 @@ Press the following button to deploy in heroku.
 
 - `API_KEY:` Get this value from [my.telegram.org](https://my.telegram.org).
 
-- `BOT_TOKEN:` Get the bot token from [Bot Father <img src="https://telegra.ph/file/8d80c13110506bf1cb58e.jpg" width="30" height="30">](https://telegram.dog/BotFather)
+- `BOT_TOKEN:` Get the bot token from [Bot Father <img src="https://telegra.ph/file/7193b3bcfef0ba8b48ca9.jpg" width="30" height="30">](https://telegram.dog/BotFather)
 
 - `OWNER_ID:` Your Telegram user id, Get this value from [@MissRose_bot](https://telegram.dog/MissRose_bot)
 
